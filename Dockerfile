@@ -1,5 +1,7 @@
 FROM circleci/android:api-28-alpha
 
+LABEL maintainer="info@syarihu.net"
+
 ENV NODEJS_VERSION=11.0.0 \
     PATH=$PATH:/home/circleci/node/bin
 
